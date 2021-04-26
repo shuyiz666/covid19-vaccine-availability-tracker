@@ -1,0 +1,68 @@
+body
+{
+  margin: 5px;
+  background: #333;
+  font-family: system-ui;
+  color: white;
+}
+
+h1
+{
+  font-size: 20px;
+}
+
+#title
+{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  top: 0;
+  left: 30%;
+  color: white;
+  font-size: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tim
+{
+  position: absolute;
+  height: 10%;
+  top: 5%;
+  right: 2%;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+#lt
+{
+  position: absolute;
+  width: 60%;
+  height: 45%;
+  top: 10%;
+  left: 0;
+  background: #666666;
+}
+
+#lb
+{
+  position: absolute;
+  width: 60%;
+  height: 45%;
+  top: 55%;
+  left: 0;
+  background: #666666;
+}
+
+#r
+{
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  top: 5%;
+  right: 0;
+  padding: 5%;
+}
+
