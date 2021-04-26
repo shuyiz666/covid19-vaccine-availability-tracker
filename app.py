@@ -1,11 +1,9 @@
 from flask import Flask
-from flask import request
 from flask import render_template
 from flask import jsonify
 import utils
 
 app = Flask(__name__)
-
 
 @app.route('/')
 def web():

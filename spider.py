@@ -1,5 +1,4 @@
 from selenium.webdriver import Chrome, ChromeOptions
-import requests
 import pymssql
 import time
 from bs4 import BeautifulSoup
