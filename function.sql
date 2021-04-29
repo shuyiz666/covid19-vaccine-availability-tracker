@@ -1,4 +1,4 @@
--- get the StoreBrandId from StoreBrandName. If not exist, get it after inserting a new record into table StoreBrand
+-- get the StoreBrandId from StoreBrandName
 GO
 CREATE OR ALTER FUNCTION getStoreBrandId(
     @StoreBrandName VARCHAR(32)
@@ -11,7 +11,7 @@ BEGIN
     RETURN @StoreBrandId
 END;
 
--- get the CityId from CityName. If not exist, get it after inserting a new record into table City
+-- get the CityId from CityName
 GO
 CREATE OR ALTER FUNCTION getCityId(
     @CityName VARCHAR(32)
@@ -24,7 +24,7 @@ BEGIN
     RETURN @CityId
 END;
 
--- get the StateId from StateName. If not exist, get it after inserting a new record into table State
+-- get the StateId from StateName
 GO
 CREATE OR ALTER FUNCTION getStateId(
     @StateName VARCHAR(32)
@@ -37,7 +37,7 @@ BEGIN
     RETURN @StateId
 END;
 
--- get the ZipCodeId from ZipCode. If not exist, get it after inserting a new record into table ZipCode
+-- get the ZipCodeId from ZipCode
 GO
 CREATE OR ALTER FUNCTION getZipCodeId(
     @ZipCode NUMERIC(5),
@@ -52,7 +52,7 @@ BEGIN
     RETURN @ZipCodeId
 END
 
--- get the ZipCodeId from ZipCode. If not exist, get it after inserting a new record into table ZipCode
+-- get the ZipCodeId from ZipCode
 GO
 CREATE OR ALTER FUNCTION getZipCodeId(
     @ZipCode NUMERIC(5),
@@ -67,7 +67,7 @@ BEGIN
     RETURN @ZipCodeId
 END
 
--- get the StoreId from Store. If not exist, get it after inserting a new record into table Store
+-- get the StoreId from Store
 GO
 CREATE OR ALTER FUNCTION getStoreId(
     @StoreBrandId NUMERIC(10),
@@ -82,7 +82,7 @@ BEGIN
     RETURN @StoreId
 END;
 
--- get the StatusId from Status. If not exist, get it after inserting a new record into table Status
+-- get the StatusId from Status
 GO
 CREATE OR ALTER FUNCTION getStatusId(
     @StatusName VARCHAR(32)

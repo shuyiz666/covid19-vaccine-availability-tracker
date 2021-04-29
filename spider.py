@@ -63,7 +63,6 @@ def streaming(page_source):
 def insert_data(cursor, data):
     """
     format and insert information into raw table
-
     cursor: database cursor
     data: a dictionary as format of (store, availability)
     """

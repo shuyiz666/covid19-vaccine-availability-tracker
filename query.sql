@@ -3,7 +3,7 @@ SELECT Store, COUNT(*)
 FROM BI
 GROUP BY Store
 
--- percentage of store could be schedule for each store brand
+-- percentage of store could be scheduled for each store brand
 SELECT Availability, COUNT(*)
 FROM BI
 WHERE Store = 'Star Market'
